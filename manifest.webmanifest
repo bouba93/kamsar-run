@@ -1,0 +1,20 @@
+{
+  "name": "Kamsar Run · Randonnée Kamsar",
+  "short_name": "Kamsar Run",
+  "description": "Le jeu de course de Randonnée Kamsar : saute la vase, les troncs et les motos, ramasse étoiles et gourdes.",
+  "lang": "fr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "id": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#061A10",
+  "theme_color": "#061A10",
+  "categories": ["games", "sports", "health"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
