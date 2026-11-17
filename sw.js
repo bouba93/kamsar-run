@@ -1,5 +1,5 @@
 // Service worker Kamsar Run : le jeu reste jouable hors connexion.
-const CACHE = 'kamsar-run-v1';
+const CACHE = 'kamsar-run-v2';
 const CORE = ['./', 'index.html', 'logo.jpg', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
